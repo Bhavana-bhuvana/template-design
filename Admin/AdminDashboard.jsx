@@ -8,7 +8,7 @@ import { Home, BookOpen, LogOut } from "lucide-react";
 import Navbar from "../src/components/Navbar";
 import Hero from "../src/components/Hero";
 import Publications from "../src/components/Publications";
-import PressReleases from "../src/components/PressReleases.JSX";
+import PressReleases from "../src/components/PressReleases";
 import Programmes from "../src/components/Programmes";
 import Footer from "../src/components/Footer";
 
