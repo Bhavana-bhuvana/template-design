@@ -1,0 +1,147 @@
+/* Donation Container*/
+.donate-container {
+  @apply flex flex-col lg:flex-row gap-6 p-6 lg:p-10 bg-[#f3eff9];
+}
+
+/* Donation Form */
+.donate-form {
+  @apply flex-1 bg-white p-6 rounded-xl shadow-md;
+}
+
+.title {
+  @apply text-primary/90 font-semibold mb-5 text-2xl;
+}
+
+.form-section {
+  @apply mb-5;
+}
+/* Error / Valid States */
+input.error,
+select.error,
+textarea.error {
+  @apply border-red-500 ring-1 ring-red-400;
+}
+
+input.valid,
+select.valid,
+textarea.valid {
+  @apply border-green-500 ring-1 ring-green-400;
+}
+
+/* OTP Input Field */
+.otp-input {
+  @apply w-full p-2 border border-gray-300 rounded-md tracking-widest text-center text-lg;
+}
+
+.otp-verified {
+  @apply border-green-500 ring-1 ring-green-400;
+}
+
+.otp-error {
+  @apply border-red-500 ring-1 ring-red-400;
+}
+
+
+/* Inputs & Labels */
+.form-section input[type="text"],
+.form-section input[type="email"],
+.form-section input[type="tel"],
+.form-section input[type="date"],
+.form-section input[type="number"],
+.form-section select,
+.form-section textarea,
+.form-section label {
+  @apply m-1;
+}
+
+.form-section input[type="checkbox"] {
+  @apply m-0;
+}
+
+.input-row {
+  @apply flex flex-col md:flex-row gap-4 my-3;
+}
+
+/* Donation Amount Options */
+.amount-options {
+  @apply flex flex-wrap gap-4 mt-4;
+}
+
+.amount-card {
+  @apply p-3 cursor-pointer transition duration-300 border rounded-lg hover:bg-gray-100;
+}
+
+.amount-card input {
+  @apply mr-2;
+}
+
+input, select, textarea {
+  @apply flex-1 p-2 border border-gray-300 rounded-md;
+}
+/* Error messages */
+.error {
+  @apply text-red-500 text-sm mt-1;
+}
+textarea {
+  @apply w-full min-h-[70px];
+}
+
+.form-section a {
+  @apply text-blue-500 cursor-pointer hover:underline;
+}
+
+/* Floating Declaration Modal */
+.floating-overlay {
+  @apply fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-[999];
+}
+
+.floating-declaration {
+  @apply bg-white rounded-xl w-11/12 max-w-2xl max-h-[80vh] flex flex-col shadow-2xl;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+
+.declaration-header {
+  @apply flex justify-between items-center px-5 py-3 border-b bg-gray-100;
+}
+
+.declaration-header h2 {
+  @apply text-xl font-semibold text-primary;
+}
+
+.close-btn {
+  @apply bg-transparent border-0 text-xl cursor-pointer text-gray-700;
+}
+
+.declaration-body {
+  @apply p-5 overflow-y-auto flex-1 text-gray-700 leading-relaxed text-sm;
+}
+
+.declaration-footer {
+  @apply px-5 py-3 border-t flex justify-end;
+}
+
+.declaration-footer button {
+  @apply px-5 py-2 bg-primary/90 text-white rounded-md hover:bg-primary/100 transition;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Donate Button */
+.donate-btn {
+  @apply w-full py-4 bg-green-600 text-white text-lg rounded-lg cursor-pointer transition hover:bg-green-700;
+}
+
+/* Right Side Info */
+.donate-info {
+  @apply flex-1 flex flex-col gap-6 mt-6 lg:mt-0;
+}
+
+.info-box {
+  @apply bg-white p-5 rounded-xl shadow-md;
+}
+/* --------------------------------------------------------------------------------------------------  */
