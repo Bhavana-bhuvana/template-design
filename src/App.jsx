@@ -9,7 +9,7 @@ import VolunteerCorner from './components/VolunteerCorner'
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom"
 import { useEffect } from "react";
 import AdminDashboard from '../Admin/AdminDashboard'
-import PressReleases from './components/PressReleases.JSX'
+import PressReleases from './components/PressReleases.jsx'
 import PressReleaseDetails from './components/PressReleaseDetails'
 import Programmes from './components/Programmes'
 import ProgrammeDetail from './components/ProgrammeDetail'
