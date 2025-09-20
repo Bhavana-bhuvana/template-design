@@ -28,7 +28,6 @@ const Hero = ({ isAdmin = false }) => {
     setTimeout(() => setShowText(true), 800);
   };
 
-  // Save text, icons, and background updates
   const handleSave = async () => {
     try {
       const res = await axios.put(`${config.API_URL}/api/hero`, editingHero);
@@ -41,7 +40,6 @@ const Hero = ({ isAdmin = false }) => {
     }
   };
 
-  // Upload new background image
   const handleImageUpload = async (e) => {
     const file = e.target.files[0];
     if (!file) return;
