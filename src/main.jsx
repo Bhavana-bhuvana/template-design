@@ -4,10 +4,14 @@ import './index.css'
 import App from './App.jsx'
 import { HashRouter } from "react-router-dom";
 console.log("React app starting..."); 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-     <HashRouter basename="/template-design"> 
-    <App />
-    </HashRouter> 
-  </StrictMode>,
-)
+try {
+  createRoot(document.getElementById('root')).render(
+    <StrictMode>
+      <HashRouter>
+        <App />
+      </HashRouter>
+    </StrictMode>
+  );
+} catch (err) {
+  console.error("Failed to render App:", err);
+}
