@@ -39,7 +39,7 @@ function App() {
     window.addEventListener("keydown", handleShortcut);
     return () => window.removeEventListener("keydown", handleShortcut);
   }, [navigate]);
-
+  console.log("App component rendered"); // 🔹 debugging
   return (
     <div className='font-primary overflow-x-hidden'>
       <Routes>
