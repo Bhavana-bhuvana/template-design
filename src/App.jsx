@@ -1,15 +1,12 @@
 import './App.css'
-import About from './components/About'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
-import Explore from './components/Explore'
 import Publications from './components/Publications'
 import Footer from './components/Footer'
-import VolunteerCorner from './components/VolunteerCorner'
 import { Routes, Route, Navigate, useNavigate } from "react-router-dom"
 import { useEffect } from "react";
 import AdminDashboard from '../Admin/AdminDashboard'
-import PressReleases from './components/PressReleases.jsx'
+import PressReleases from './components/PressReleases'
 import PressReleaseDetails from './components/PressReleaseDetails'
 import Programmes from './components/Programmes'
 import ProgrammeDetail from './components/ProgrammeDetail'
