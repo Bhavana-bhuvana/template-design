@@ -7,6 +7,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
      <HashRouter basename="/template-design"> 
     <App />
-    </HashRouter>
+    </HashRouter> 
   </StrictMode>,
 )
