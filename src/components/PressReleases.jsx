@@ -133,7 +133,7 @@ const PressReleases = () => {
   const visibleReleases = isAdmin ? pressReleases : pressReleases.slice(0, 10);
 
   return (
-    <div className="px-4 text-center bg-heroBG sm:px-8 lg:px-16 py-8">
+    <div id="pressreleases" className="px-4 text-center bg-heroBG sm:px-8 lg:px-16 py-8">
       <h2 className="text-2xl md:text-3xl text-white font-bold mb-3 border-b-2 border-green-700 inline-block">
         Related Press Releases
       </h2>
