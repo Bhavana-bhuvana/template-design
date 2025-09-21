@@ -117,7 +117,7 @@ const Programmes = () => {
   if (!programmes.length) return <div className="text-center py-10 text-white">No programmes found.</div>;
 
   return (
-    <section className="py-12 text-center px-6 bg-heroBG">
+    <section id="programmes" className="py-12 text-center px-6 bg-heroBG">
       <h2 className="text-2xl md:text-3xl text-white font-bold mb-20 border-b-2 border-green-700 inline-block">
         OUR PROGRAMMES
       </h2>
