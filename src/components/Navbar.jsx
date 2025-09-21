@@ -19,7 +19,7 @@ const Navbar = () => {
   const navItems = [
     { id: "home", label: "Home", type: "scroll" },
     { id: "publications", label: "Publications", type: "scroll" },
-     { id: "pressreleases", label: "Press Releases", type: "route", path: "/press-release" },
+     { id: "pressreleases", label: "Press Releases", type: "scroll"},
     { id: "programmes", label: "Programmes", type: "scroll" },
     { id: "volunteercorner", label: "Explore", type: "scroll" },
   ];
